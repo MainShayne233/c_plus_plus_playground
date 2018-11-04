@@ -5,7 +5,7 @@
 //                                                                         //
 // If running from the command line (such as with g++), run with:          //
 //                                                                         //
-// g++ -o read_file.o read_file.cpp && ./read_file.exe some_input_file.txt //
+// g++ -o main.o main.cpp && ./main.exe some_input_file.txt //
 /////////////////////////////////////////////////////////////////////////////
 
 #include <fstream>
