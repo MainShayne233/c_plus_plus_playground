@@ -84,7 +84,6 @@ struct Person {
   
   // define methods
 
-
   // constructor method
   Person();
   Person(string first_name, string last_name, int age);
@@ -126,7 +125,7 @@ You might be confused by the `this->frst_name` bit. Let's disect it.
 `this` is a special keyword in C++. When used inside a method like the one we defined above, `this` is the current
 instance of the type you have defined. That might sound confusing, but think about it like this:
 
-```
+```c++
 Person shayne = Person("Shayne", "Tremblay", 22);`
 Person aidan = Person("Aidan", "Agee", 23);`
 
